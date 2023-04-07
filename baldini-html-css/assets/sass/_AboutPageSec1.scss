@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-sec-1{
+    width: 100%;
+    height: auto;
+    .container-fluid{
+        .about-box{
+            position: relative;
+            width: 100%;
+            max-width: 1351px;
+            height: 400px;
+            background-image: url("../img/about-etir-1.jpg");
+            background-position: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            mix-blend-mode: luminosity;
+            .about-title{
+                left: 5%;
+                top: 26%;
+                position: absolute;
+                font-family: 'Kanit', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 110px;
+                line-height: 160px;
+                color: #000000;               
+            }
+        }
+    }
+}

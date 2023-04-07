@@ -1,0 +1,42 @@
+.about-sec-2{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 100%;
+        height: auto;
+        .about-text{
+            font-family: 'MonteCarlo', cursive;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px;
+            line-height: 37px;
+            text-align: center;
+            color: #000000;
+        }
+        .umumi{
+            .image{
+                position: relative;
+                width: 350px;
+                height: 250px;
+                float: right;
+                background-image: url("../img/about-etir-2.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                mix-blend-mode: luminosity;
+                .cercive{
+                    width: 350px;
+                    height: 250px;
+                    flex-direction: row;
+                    flex-flow: wrap;
+                    display: inline-block;
+                    box-sizing: border-box;
+                    position: absolute;
+                    border: 4px solid #000000;
+                    bottom: 10%;
+                    right: 7%;
+
+                }
+            }
+        }
+    }
+}

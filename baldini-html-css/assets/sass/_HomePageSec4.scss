@@ -1,0 +1,74 @@
+.about-4{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        .vektor{
+            img{
+                width: 350px;
+                height: 350px;
+            }
+        }
+        .image-text{
+            .sekil{
+                position: relative;
+                background-image: url("../img/Vector.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width: 150px;
+                height: 150px;
+               
+                .img-text{
+                    position: absolute;
+                    top: 31%;
+                    left: 26%;
+                    h1{
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 50px;
+                        text-transform: capitalize;
+                        color: #000000;
+                    }
+                }
+                .img-text1{
+                    position: absolute;
+                    top: 31%;
+                    left: 23%;
+                    h1{
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 50px;
+                        text-transform: capitalize;
+                        color: #000000;
+                    }
+                }
+                .img-text2{
+                    position: absolute;
+                    top: 31%;
+                    left: 17%;
+                    h1{
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 50px;
+                        text-transform: capitalize;
+                        color: #000000;
+                    }
+                }
+            }
+            .text{
+                font-family: 'MonteCarlo', cursive;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 19px;
+                line-height: 30px;
+                color: #000000;  
+            }
+        }
+
+    }
+}

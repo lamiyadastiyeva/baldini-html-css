@@ -1,0 +1,765 @@
+.container img {
+  width: 250px;
+  height: 120px;
+}
+
+.container li {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 96px;
+  text-align: left;
+  vertical-align: top;
+  fill: solid #000000;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 640px;
+}
+
+.about-2 {
+  width: 100%;
+  height: auto;
+}
+
+.about-2 .container {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.about-2 .container .vektor img {
+  width: 350px;
+  height: 350px;
+}
+
+.about-2 .container .image-text .sekil img {
+  width: 110px;
+  height: 130px;
+}
+
+.about-2 .container .image-text .text {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.about-3 {
+  width: 100%;
+  height: auto;
+}
+
+.about-3 .container {
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /*.halqa-ox{
+            width: 100%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .halqa{
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 18px;
+                height: 18px;
+                border: 4px solid #000000;
+                border-radius: 50%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            .ox{
+                border-left: 4px dashed #000000;
+                height: 100px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+        } */
+}
+
+.about-3 .container .sekil1 img {
+  width: 300px;
+  height: 500px;
+  margin: 25px;
+}
+
+.about-3 .container .title {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.about-3 .container .text {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.about-3 .container .button {
+  text-align: center;
+}
+
+.about-3 .container .button button {
+  background-color: #000000;
+  color: white;
+}
+
+.about-3 .container .sekil2 img {
+  width: 300px;
+  height: 500px;
+  margin: 25px;
+}
+
+.about-4 {
+  width: 100%;
+  height: auto;
+}
+
+.about-4 .container {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.about-4 .container .vektor img {
+  width: 350px;
+  height: 350px;
+}
+
+.about-4 .container .image-text .sekil {
+  position: relative;
+  background-image: url("../img/Vector.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 150px;
+  height: 150px;
+}
+
+.about-4 .container .image-text .sekil .img-text {
+  position: absolute;
+  top: 31%;
+  left: 26%;
+}
+
+.about-4 .container .image-text .sekil .img-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.about-4 .container .image-text .sekil .img-text1 {
+  position: absolute;
+  top: 31%;
+  left: 23%;
+}
+
+.about-4 .container .image-text .sekil .img-text1 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.about-4 .container .image-text .sekil .img-text2 {
+  position: absolute;
+  top: 31%;
+  left: 17%;
+}
+
+.about-4 .container .image-text .sekil .img-text2 h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.about-4 .container .image-text .text {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.about-5 {
+  width: 100%;
+  height: auto;
+}
+
+.about-5 .container {
+  width: 100%;
+  height: auto;
+}
+
+.about-5 .container .row .title {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+}
+
+.about-5 .container .row .box {
+  position: relative;
+  background-color: #000000;
+  width: 280px;
+  height: 350px;
+  border-radius: 10%;
+  margin: 50px;
+}
+
+.about-5 .container .row .box .border {
+  position: absolute;
+  z-index: 1;
+  width: 280px;
+  height: 350px;
+  border: 15px solid #a19a9a;
+  border-radius: 10%;
+  right: 5%;
+  bottom: 5%;
+}
+
+.about-5 .container .row .box .border .image1 img {
+  text-align: center;
+  width: 150px;
+  height: 160px;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.about-5 .container .row .box .border .image2 img {
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  margin-left: 65px;
+  margin-top: 45px;
+}
+
+.about-5 .container .row .box .border .image3 img {
+  text-align: center;
+  width: 140px;
+  height: 150px;
+  margin-left: 90px;
+  margin-top: 55px;
+}
+
+.about-5 .container .row .box .border .title1 {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 14px;
+  margin-top: 30px;
+}
+
+.about-5 .container .row .box .border .title2 {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 32px;
+}
+
+.about-5 .container .row .box .border .title {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.about-5 .container .row .box .border .button1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.about-5 .container .row .box .border .button1 button {
+  background-color: white;
+  color: #000000;
+}
+
+.about-5 .container .row .box .border .button2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.about-5 .container .row .box .border .button2 button {
+  background-color: white;
+  color: #000000;
+}
+
+.about-5 .container .row .box .border .button {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.about-5 .container .row .box .border .button button {
+  background-color: white;
+  color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about-sec-1 {
+  width: 100%;
+  height: auto;
+}
+
+.about-sec-1 .container-fluid .about-box {
+  position: relative;
+  width: 100%;
+  max-width: 1351px;
+  height: 400px;
+  background-image: url("../img/about-etir-1.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: luminosity;
+}
+
+.about-sec-1 .container-fluid .about-box .about-title {
+  left: 5%;
+  top: 26%;
+  position: absolute;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 160px;
+  color: #000000;
+}
+
+.about-sec-2 {
+  width: 100%;
+  height: auto;
+}
+
+.about-sec-2 .container {
+  width: 100%;
+  height: auto;
+}
+
+.about-sec-2 .container .about-text {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+}
+
+.about-sec-2 .container .umumi .image {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  float: right;
+  background-image: url("../img/about-etir-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: luminosity;
+}
+
+.about-sec-2 .container .umumi .image .cercive {
+  width: 350px;
+  height: 250px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  border: 4px solid #000000;
+  bottom: 10%;
+  right: 7%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.products-sec-1 {
+  width: 100%;
+  height: auto;
+}
+
+.products-sec-1 .container-fluid .products-box {
+  position: relative;
+  width: 100%;
+  max-width: 1351px;
+  height: 400px;
+  background-image: url("../img/products-etir-1.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: luminosity;
+}
+
+.products-sec-1 .container-fluid .products-box .products-title {
+  left: 5%;
+  top: 30%;
+  position: absolute;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 130px;
+  color: #000000;
+}
+
+.products-about-2 {
+  width: 100%;
+  height: auto;
+}
+
+.products-about-2 .container {
+  width: 100%;
+  height: auto;
+}
+
+.products-about-2 .container .row .title {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+}
+
+.products-about-2 .container .row .box {
+  position: relative;
+  background-color: #000000;
+  width: 200px;
+  height: 270px;
+  border-radius: 10%;
+  margin: 50px;
+}
+
+.products-about-2 .container .row .box .border {
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 270px;
+  border: 15px solid #a19a9a;
+  border-radius: 10%;
+  right: 5%;
+  bottom: 5%;
+}
+
+.products-about-2 .container .row .box .border .image1 img {
+  text-align: center;
+  width: 100px;
+  height: 110px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.products-about-2 .container .row .box .border .image2 img {
+  text-align: center;
+  width: 130px;
+  height: 130px;
+  margin-left: 45px;
+  margin-top: 25px;
+}
+
+.products-about-2 .container .row .box .border .image3 img {
+  text-align: center;
+  width: 90px;
+  height: 100px;
+  margin-left: 70px;
+  margin-top: 35px;
+}
+
+.products-about-2 .container .row .box .border .image4 img {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-left: 60px;
+  margin-top: 35px;
+}
+
+.products-about-2 .container .row .box .border .title1 {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 14px;
+  margin-top: 22px;
+}
+
+.products-about-2 .container .row .box .border .title2 {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 17px;
+}
+
+.products-about-2 .container .row .box .border .title {
+  font-family: 'MonteCarlo', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.products-about-2 .container .row .box .border .button1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.products-about-2 .container .row .box .border .button1 button {
+  background-color: white;
+  color: #000000;
+}
+
+.products-about-2 .container .row .box .border .button2 {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.products-about-2 .container .row .box .border .button2 button {
+  background-color: white;
+  color: #000000;
+}
+
+.products-about-2 .container .row .box .border .button {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 23px;
+}
+
+.products-about-2 .container .row .box .border .button button {
+  background-color: white;
+  color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact-sec-1 {
+  width: 100%;
+  height: auto;
+}
+
+.contact-sec-1 .container-fluid .contact-box {
+  position: relative;
+  width: 100%;
+  max-width: 1351px;
+  height: 400px;
+  background-image: url("../img/contact-sec1.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: luminosity;
+}
+
+.contact-sec-1 .container-fluid .contact-box .contact-title {
+  left: 5%;
+  top: 30%;
+  position: absolute;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130px;
+  color: #000000;
+}
+
+.contact-sec-2 {
+  width: 100%;
+  height: auto;
+}
+
+.contact-sec-2 .container {
+  width: 100%;
+  height: auto;
+}
+
+.contact-sec-2 .container .title-form .title h1 {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41px;
+  color: #000000;
+}
+
+.contact-sec-2 .container .title-form .inputs input {
+  width: 100%;
+  max-width: 240px;
+  min-height: 60px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 2px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+}
+
+.contact-sec-2 .container .title-form .input input {
+  width: 100%;
+  max-width: 500px;
+  min-height: 120px;
+  margin-top: 20px;
+  border: 2px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+}
+
+.contact-sec-2 .container .title-form .icon-text {
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+}
+
+.footer .container {
+  width: 100%;
+  height: auto;
+}
+
+.footer .container .umumi {
+  text-align: center;
+}
+
+.footer .container .umumi .text {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+
+.footer .container .icons {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer .container .icons .fa-instagram {
+  font-size: 35px;
+}
+
+.footer .container .icons .fa-facebook {
+  font-size: 35px;
+}
+
+.footer .container .titles {
+  margin-left: 120px;
+}
+
+.footer .container .titles .title {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer .container .title1 {
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 120px;
+}
+
+.footer .container .icons-texts {
+  margin-left: 120px;
+}
+
+.footer .container .icons-texts .icon-text {
+  font-size: 18px;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.footer .container .border {
+  border-bottom: 2px solid #000000;
+}
+/*# sourceMappingURL=style.css.map */
